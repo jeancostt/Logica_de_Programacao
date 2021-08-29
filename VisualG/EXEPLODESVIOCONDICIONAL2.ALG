@@ -1,0 +1,19 @@
+Algoritmo "Exeplodesviocondicional2"
+// Disciplina   : [Lógica de Programação e Javascript]
+// Professor   : Jailson Costa dos Santos 
+// Descrição   : ExemploDesvioCondicional
+// Autor(a)    : Jean da Costa Silva
+// Data atual  : 25/08/2021
+Var
+// Seção de Declarações das variáveis 
+valor:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreval ("Desvio condicional Simples")
+Escreva ("Digite sua idade: ")
+leia (valor)
+se (valor>=16) entao
+   Escreval("Você pode votar")
+fimse
+Fimalgoritmo
