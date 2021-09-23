@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostila Manzano Página 50 atividade 5-1-I</title>
+</head>
+<body>
+    <script>
+/*Elaborar um programa que efetue a leitura de valores positivos inteiros até que um valor negativo 
+seja informado. Ao final devem ser apresentados o maior e o menor valores informados pelo 
+usuário.*/
+
+        var valor=  0;
+        var maiorValor = 0;
+        var menorValor = 0;
+        do  {
+            valor = parseFloat(prompt("Digite um valor"));
+
+            if (valor > maiorValor) {
+                maiorValor = valor;
+            }
+
+            if (valor < menorValor) {
+                menorValor = valor;
+            }
+        } while (valor >= 0);
+        alert("O maior valor digitado foi " + maiorValor + " e o menor foi " + menorValor + ".");
+  </script>
+</body>
+</html>

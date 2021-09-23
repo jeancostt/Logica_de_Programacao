@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostila Manzano Página 26 atividade L</title>
+</head>
+<body>
+    <script>
+/*Elaborar um programa que efetue a leitura do nome e do sexo de uma pessoa, apresentando com 
+saída uma das seguintes mensagens: "Ilmo Sr.", se o sexo informado como masculino, ou a 
+mensagem "Ilma Sra.", para o sexo informado como feminino. Apresente também junto da 
+mensagem de saudação o nome previamente informado. */
+
+        const nome = prompt("Digite seu nome: ");
+
+        if (nome.substr(-1) == "a") {
+            alert("Ilma Sra. " + nome);
+        } else {
+            alert("Ilmo Sr. " + nome);
+        }
+    </script>
+</body>
+</html>

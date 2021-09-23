@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostila Manzano Página 50 atividade 5-1-J</title>
+</head>
+<body>
+    <script>
+/*Elaborar um programa que apresente o resultado inteiro da divisão de dois números quaisquer. 
+Para a elaboração do programa, não utilizar em hipótese alguma o conceito do operador aritmético 
+DIV. A solução deve ser alcançada com a utilização de looping. Ou seja, o programa deve 
+apresentar como resultado (quociente) quantas vezes o divisor cabe no dividendo. */
+
+        var n1 = parseInt(prompt("Digite o valor a ser dividido"));
+        var n2 = parseInt(prompt("Digite o valor que dividirá o primeiro"));
+        var total = 0;
+        do {
+          n1 -= n2;
+          total++;
+        } while (n1 > 0)
+        if (n1 < 0) {
+          total--;
+        }
+        alert("O resultado inteiro da divisão do primeiro número pelo segundo é " + total)
+      </script>   
+</body>
+</html>
