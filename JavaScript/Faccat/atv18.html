@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostila Faccat Página 5 atividade 17</title>
+</head>
+<body>
+<script>
+/* Ler o ano atual e o ano de nascimento de uma pessoa. Escrever uma mensagem que diga se ela 
+poderá ou não votar este ano (não é necessário considerar o mês em que a pessoa nasceu). */
+
+var anoNascimento = parseInt(prompt("Digite o ano de nascimento da pessoa"));
+var anoAtual = parseInt(prompt("Digite o ano atual"));
+if (anoNascimento > anoAtual) {
+alert("Essas datas são impossíveis");
+} else {
+alert("Essa pessoa está com " + (anoAtual - anoNascimento) + " anos de idade.");
+}
+</script>
+</body>
+</html>

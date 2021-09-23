@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostila Faccat Página 9 atividade 40</title>
+</head>
+<body>
+    <script>
+/* Faça um algoritmo para ler: a descrição do produto (nome), a quantidade adquirida e o preço 
+unitário. Calcular e escrever o total (total = quantidade adquirida * preço unitário), o desconto e o total 
+a pagar (total a pagar = total - desconto), sabendo-se que: 
+ - Se quantidade <= 5 o desconto será de 2% 
+ - Se quantidade > 5 e quantidade <=10 o desconto será de 3% 
+ - Se quantidade > 10 o desconto será de 5%*/
+
+var produto = prompt("Digite o nome do produto:");
+var quantidade = parseInt(prompt("Digite a quantidade que deseja adquirir: "));
+var preco = parseFloat(prompt("Digite o preço unitário do produto: "));
+var total = quantidade * preco;
+alert("O preço total de " + produto + ", sem desconto, será R$:" + total )
+if (quantidade <= 5) {
+alert("O preço total, contando o desconto, sairá R$:" + (total - total * 0.02))
+} else if ( quantidade <= 10) {
+alert("O preço total, contando o desconto, sairá R$:" + (total - total * 0.03))
+} else {
+alert("O preço total, contando o desconto, sairá R$:" + (total - total * 0.05))
+}
+    </script>
+    
+</body>
+</html>

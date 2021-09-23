@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var assert = require('assert');
+
+var antecessor = function(numero) {
+    return numero - 1;
+}
+
+var sucessor = function(numero) {
+    return numero + 1;
+}
+
+
+//
+// Seu teste
+//
+try {
+    assert.equal(9, antecessor(10), "deve retornar o antecessor");
+    assert.equal(11, sucessor(10), "deve retornar o sucessor");
+} catch(e) {
+    console.log(e);
+}
+    </script>
+</body>
+</html>
